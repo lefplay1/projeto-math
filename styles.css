@@ -72,3 +72,13 @@ button:hover{
 button:active{
     opacity: 0.8;
 }
+@media screen and (max-width: 900px) {
+    .link-header {
+      display: none;
+    }  
+    .image-logo{
+      width: 200px;
+      height: 200px;
+      margin-bottom: 100px;
+    }
+}
